@@ -1,0 +1,10 @@
+{
+	// The time a fire will keep burning for in ticks. 20 ticks = 1 second.
+	"timeFireBurnsInTicks": 300,
+	// When enabled, uses the MinRandomExtraBurnTicks and MaxRandomExtraBurnTicks config values to randomize the time fire burns for.
+	"enableRandomizedFireDuration": true,
+	// If randomized fire duration is enabled, a random tick number will be chosen in between the minimum and maximum value. This will be added to timeFireBurnsInTicks. If the outcome is negative, it will be subtracted.
+	"MinRandomExtraBurnTicks": -100,
+	// See MinRandomExtraBurnTicks's description.
+	"MaxRandomExtraBurnTicks": 100
+}

@@ -1,0 +1,6 @@
+.fabric/
+logs/
+resourcepacks/
+saves/
+
+realms_persistence.json
